@@ -1,8 +1,6 @@
 <div align="center">
 <h1 style="text-align: center;">Proyecto Pokemon API Frontend</h1>
-
 </div>
-
 
 ### Proyecto Pokemon Api (Complementario)
 

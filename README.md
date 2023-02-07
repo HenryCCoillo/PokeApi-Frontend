@@ -1,8 +1,12 @@
+<div align="center">
+<h1 style="text-align: center;">Proyecto Pokemon API Frontend</h1>
+
+</div>
 
 
-## Proyecto Django Api (Complementario)
+### Proyecto Pokemon Api (Complementario)
 
-### https://github.com/HenryCCoillo/PokeApi
+https://github.com/HenryCCoillo/PokeApi
 
 <hr>
 

@@ -36,7 +36,7 @@
 
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#" class="nav-link"><img style="width: 20px;border-radius: 10px" src="https://www.gravatar.com/avatar/9750d94dfe79f7b37e874ad93a06bfca?s=192&d=identicon&r=PG&f=1" alt=""> Henry Ccoillo</a></li>
-          <li><a href="#" class="nav-link"><span class="glyphicon glyphicon-log-in"></span> Cerrar Sesión</a></li>
+          <li><a href="#" class="nav-link" id="cerrar"><span class="glyphicon glyphicon-log-in"></span>Cerrar Sesión</a></li>
         </ul>
       </div>
     </div>
@@ -88,6 +88,13 @@
 
     </div>
     <script src="/js/lista.js"></script>
+    <script>
+      const cerrar = document.querySelector("#cerrar");
+      cerrar.addEventListener("click", function(){ 
+        localStorage.removeItem('token');
+        window.location.replace("./index.html");
+      });
+    </script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
